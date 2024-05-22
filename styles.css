@@ -1,0 +1,10 @@
+.titulo{
+    background-color: rgb(20, 172, 20);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+div.logo {
+    min-height: 400px;
+    display: flex;
+    align-items: right;
+  }
