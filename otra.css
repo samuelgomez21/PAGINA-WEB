@@ -1,71 +1,47 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-  }
-  
-  header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  header .search {
-    flex-grow: 1;
-  }
-  
-  header .search input {
-    padding: 8px;
-    border: none;
-    width: 100%;
-  }
-  
-  header .search button {
-    padding: 8px 12px;
-    background-color: #555;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  header .user-actions {
-    display: flex;
-    align-items: center;
-  }
-  
-  header .user-actions a {
-    color: #fff;
-    text-decoration: none;
-    padding: 8px 12px;
-    margin-left: 10px;
-    border: 1px solid #fff;
-  }
-  
-  .productos {
-    padding: 50px 0;
-  }
-  
-  .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  .footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-  }
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+  background-color: green;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+}
+
+.barra-busqueda {
+  display: flex;
+}
+
+.barra-busqueda input[type="text"] {
+  padding: 20px 60px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.barra-busqueda button {
+  padding: 20px 40px;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.botones button {
+  padding: 8px 15px;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
   
